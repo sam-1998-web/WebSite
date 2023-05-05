@@ -1,0 +1,285 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+  }
+  .head1{
+    color: rgba(29, 33, 38, 0.821);
+    left: 50px;
+  }
+  .nav_Conatiner{
+    position: sticky;
+    top: 0;
+    left: 0;
+
+  }
+
+
+
+  .para{
+    color: black;
+  }
+  .Head_Img{
+    background-repeat: right;
+    background-size: contain;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #ffffff;
+    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+
+  .ImgLogo{
+    width: 280px;
+
+  }
+  
+  .logo {
+    height:10px;
+    font-size: 10px;
+    width: 10px;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #333333;
+    font-size: 16px;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    /* background-image: url('./img3.jpg'); */
+    background-image: url("https://media.istockphoto.com/id/1190147404/photo/cup-of-coffee-and-laptop-on-the-table.jpg?s=170667a&w=0&k=20&c=DGe_oTk0mxNr8oTuEZXKoj2zxHwnfIM5Kt4bzs2kbts=");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .hero button {
+    background-color: #ffffff;
+    color: #333333;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .hero button:hover {
+    background-color: #333333;
+    color: #ffffff;
+    border-color: #333333;
+  }
+  
+  /* Services Section Styles */
+  .services {
+    
+    background-color: rgb(235, 181, 235);
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .services h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .services-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .service {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    flex-basis: calc(33.33% - 40px);
+    text-align: left;
+  }
+  
+  .service h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .service p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .service button {
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .service button:hover {
+    background-color: #ffffff;
+    color: #333333;
+    border: 2px solid #333333;
+  }
+  
+  /* About Section Styles */
+  .about {
+    text-align: center;
+    padding: 100px 0;
+    background-image: url(./img3.jpg);
+    color: black;
+  }
+  
+  .about h2 {
+
+    font-size: 36px;
+    font-weight: bold;
+    }
+    
+    .logo1{
+        padding: 20px;
+        margin: 20;
+        height: 10;
+        width: 0;
+
+    }
+
+
+    .about p {
+        font-size: 18px;
+        margin-bottom: 40px;
+      }
+      
+      .about img {
+        width: 50%;
+        border-radius: 50%;
+        margin-bottom: 20px;
+      }
+      
+      .contact {
+        padding: 80px 20px;
+        text-align: center;
+      }
+      
+      .contact h2 {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 40px;
+      }
+      
+      .contact form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .contact input[type='text'],
+      .contact input[type='email'],
+      .contact textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 5px;
+      }
+      
+      .contact input[type='submit'] {
+        background-color: #333333;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+      }
+      
+      .contact input[type='submit']:hover {
+        background-color: #ffffff;
+        color: #333333;
+      }
+      
+      .footer {
+        background-color: #333333;
+        color: #ffffff;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      .footer p {
+        margin: 0;
+        font-size: 16px;
+        /* text-align: center; */
+      }
+      .ParaLast{
+        text-align: center;
+        background-color: black;
+        color: white;
+      }
+      
+      .footer a {
+        color: #ffffff;
+        text-decoration: none;
+      }
+
+      .LButton{
+        width: 90px;
+        padding: 7px;
+        background-color: gray;
+        border-radius: 8px;
+
+      }
+      
